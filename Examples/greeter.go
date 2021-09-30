@@ -8,4 +8,6 @@ import (
 func main() {
 	fmt.Printf("%#v\n", os.Args)
 	fmt.Println("Path:", os.Args[0])
+
+	// test
 }
