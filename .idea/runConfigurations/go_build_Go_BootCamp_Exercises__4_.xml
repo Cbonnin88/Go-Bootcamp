@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build Go-BootCamp/Exercises (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
+    <module name="Go-BootCamp" />
+    <working_directory value="$PROJECT_DIR$" />
+    <kind value="FILE" />
+    <package value="Go-BootCamp/Exercises" />
+    <filePath value="$PROJECT_DIR$/Exercises/multiAssign.go" />
+    <method v="2" />
+  </configuration>
+</component>
