@@ -1,8 +1,8 @@
-package main
+package Trim
 
 import "fmt"
 
-func main() {
+func JSON() {
 	json := `"\n" +
 		"{\n" +
 		"\t\"Items\": [{\n" +

@@ -1,4 +1,4 @@
-package main
+package Trim
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"unicode/utf8"
 )
 
-func main() {
+func Trim() {
 	msg := `
 
 	The weather looks good.
@@ -22,6 +22,5 @@ I should go and play.
 	name = strings.TrimRight(name, " ")
 	length := utf8.RuneCountInString(name)
 	fmt.Println(length)
-
 
 }

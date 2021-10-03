@@ -1,4 +1,4 @@
-package main
+package Yell_it_back
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Yell() {
 
 	msg := os.Args[1]
 	length := len(msg)
