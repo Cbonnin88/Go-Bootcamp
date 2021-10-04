@@ -1,11 +1,11 @@
-package main
+package RawStrings
 
 import (
 	"fmt"
 	"path"
 )
 
-func main() {
+func PathSep() {
 	dir, file := path.Split("css/main.css") // Using the Split import
 	fmt.Println("dir :",dir)
 	fmt.Println("file :", file)

@@ -1,8 +1,8 @@
-package main
+package RawStrings
 
 import "fmt"
 
-func main() {
+func Conversion() {
 	speed := 200
 	force := 2.5
 
