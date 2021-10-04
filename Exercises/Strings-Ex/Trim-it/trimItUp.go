@@ -1,4 +1,4 @@
-package main
+package Trim
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"unicode/utf8"
 )
 
-func main() {
+func RawLiteral() {
 	msg := `
 
 	The weather looks good.
