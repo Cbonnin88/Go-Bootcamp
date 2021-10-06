@@ -5,11 +5,11 @@ import "fmt"
 func PrintF() {
 	// printf = %q
 	var brand = "Molotov"
-	fmt.Printf("%q\n", brand)
+	fmt.Printf("PrintF placeholder: %q\n", brand)
 
 	// %s, without double quotes
 	var car = "Audi"
-	fmt.Printf("%s\n", car)
+	fmt.Printf("S placeholder: %s\n", car)
 
 	// %d, integer value
 	success := 25

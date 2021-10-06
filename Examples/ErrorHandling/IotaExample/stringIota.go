@@ -15,3 +15,14 @@ func ReturnValue() {
 	fmt.Println("Converted number: ", n)
 	fmt.Println("Returned error values: ", err)
 }
+
+func ErrorHandling() {
+	age := "duck"
+
+	n, err := strconv.Atoi(age)
+	if err != nil {
+		fmt.Println("Error:", err)
+		return
+	}
+	fmt.Printf("Success: Converted %q to %d.\n", age, n) // happy path
+}
