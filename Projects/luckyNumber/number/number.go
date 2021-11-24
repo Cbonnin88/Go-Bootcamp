@@ -9,8 +9,8 @@ import (
 func LuckyNumber() {
 
 	source := rand.NewSource(time.Now().UnixNano())
-	randomizer := rand.New(source)
-	guess := randomizer.Intn(10)
+	guess := rand.New(source).Intn(10)
+
 	var try int
 
 	for {
