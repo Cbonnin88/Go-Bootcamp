@@ -13,7 +13,7 @@ func GuessingGame(){
 
 	for {
 
-		fmt.Print("Pick a number between 1 and 10")
+		fmt.Print("Pick a number between 1 and 10: ")
 		var num int
 		scan, err := fmt.Scan(&num)
 		if err != nil {
@@ -29,13 +29,16 @@ func GuessingGame(){
 		case num < guess:
 			fmt.Println("Too low, try again")
 
+		case num == guess && try == 1:
+			fmt.Println("Awesome, you got it on the first try !!!")
+			return
+
 		case num == guess:
 			fmt.Printf("Awesome!!!, you got it and it only took you %d tries\n", try)
 			return
-
-		case num == 6:
-			fmt.Println("Awesome, you got it on the first try !!!")
 		}
 	}
 
 }
+
+
